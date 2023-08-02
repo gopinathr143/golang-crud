@@ -39,13 +39,21 @@ Create the "users" table: The application will automatically create the "users" 
 You can use cURL or Postman to interact with the application. Here are some example cURL commands for testing the CRUD operations:
 
 ### Create a new user:
+```
 curl -X POST -d '{"name":"John Doe"}' http://localhost:8080/create
+```
 
 ### Read all users:
+```
 curl http://localhost:8080/read
+```
 
 ### Update a user (replace <user_id> with the ID of the user you want to update):
+```
 curl -X PUT -d '{"id":<user_id>,"name":"Updated Name"}' http://localhost:8080/update
+```
 
 ### Delete a user (replace <user_id> with the ID of the user you want to delete):
+```
 curl -X DELETE -d '{"id":<user_id>}' http://localhost:8080/delete
+```
