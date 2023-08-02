@@ -9,7 +9,7 @@ This is a simple CRUD (Create, Read, Update, Delete) application built using Go 
 2. Clone the repository: Use the following command to clone the repository to your local machine.
 
    ```
-   git clone https://github.com/your-username/golang-crud.git
+   git clone https://github.com/gopinathr143/golang-crud.git
    cd golang-crud
    ```
    
